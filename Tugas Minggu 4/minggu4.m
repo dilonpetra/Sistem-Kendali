@@ -6,7 +6,7 @@ den = [T T/16 1];
 
 Kp = 1;
 Ti = 1;
-Ki = Kp/Ti;
+Ki = 1;
 
 sys = tf(num, den);
 sys_c = tf([Kp, Ki], [1, 0]);
